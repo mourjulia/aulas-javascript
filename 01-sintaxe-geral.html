@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sintaxe Geral do JS</title>
+</head>
+
+<body>
+    <h1>Começando com JavaScript</h1>
+    <hr>
+
+    <script>
+        // comando de saída (útil pata teste básicos)
+        console.log("Hello World");
+
+        /* Manipulçao de dados na Memória 
+        
+        Criação de espaços na memória RAM do computador atráves de 
+        VARIÁVEIS e/ou CONSTANTES
+        
+        Variáveis: declaradas com a palavra-chave "let"
+        Constantes: declaradas com a palavra-chave "const"*/
+
+// Declaração (criando na memória)
+let ano = 2024;
+const aluno ="Julia";
+
+// Saída  (acessando/exibindo/usando no console)
+console.log(ano);
+console.log(aluno);
+
+/*  declarando uma relaçãode variáveis: 
+Elas iniciam sem valor atrivuido, portanto são 
+consideradas indefinidas (undefined)*/ 
+
+let teste1, teste2, teste;
+
+console.log(teste1);
+
+/* Atribuindo valores variaveis */
+teste1 = "Exemplo 1"
+
+console.log(teste1);
+
+// trabalhando com valores numéricos
+let valor1 = 10; /* valor inteiro */
+let valor2 = 5;  /* valor inteiro */
+let valor3 = 1200.55 /* deciamal, quebrado */
+
+// Operações Básicas 
+let soma = valor1 + valor2;
+let subtração = valor1 - valor2;
+let multiplicação = valor1 * valor2;
+let divisão = valor1 / valor2;
+
+console.log("soma: "+soma);
+console.log("divisão: "+divisão);
+console.log("multiplicação: "+multiplicação);
+console.log("subtração: "+subtração);
+
+
+/* Saída de dados personalizados 
+Frase para o exeplo: 
+Olá! Me chamo Julia e não vejo a hora de acabar o ano de 2024 */
+
+// Forma 1: CONCATENAÇÃO (tradicional, antiga)
+
+console.log("Olá! Me chamo "+aluno+ " e não vejo a hora de acabar o ano de "+ano+ ".");
+
+
+// Forma 2: TEMPLATE LITERAL/STRING (moderna)
+
+console.log(`Olá! Me chamo ${aluno} e não vejo a hora de acabr o ano de ${ano}.`)
+
+    </script>
+</body>
+
+</html>

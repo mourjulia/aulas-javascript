@@ -32,7 +32,3 @@ scripts entre páginas HTML diferentes. Aligação entre os arquivos JavaScript 
 
 ***Obs.:** normalmente a programação é feita (ou ligada) **NO FINAL** da página HTML 
 portanto, poucos antes do fechamento `</body>`
-
-
-
-
