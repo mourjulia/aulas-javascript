@@ -32,3 +32,28 @@ scripts entre páginas HTML diferentes. Aligação entre os arquivos JavaScript 
 
 ***Obs.:** normalmente a programação é feita (ou ligada) **NO FINAL** da página HTML 
 portanto, poucos antes do fechamento `</body>`
+
+
+**NO FINAL** da página HTML, portanto, pouco antes do fevhamento '</body>'
+ 
+---
+ 
+## Sobre Arrays
+ 
+Arrays são estruturas de dados **indexados**, também conhecidos comos **vetores** ou **matrizes**.
+ 
+Na prática, um array é uma lista de dados sequenciais, e cada dado é armazenado em uma posição/índice do arry.
+tem menu de contexto
+
+tem menu de contexto
+
+**obs.:** A contagem de elementos doa array **sempre inicia do zero**
+
+-----
+
+## Sobre Objetos 
+
+objetos também são estruturas de dados so que **não-indexados**, 
+ou seja, o acesso aos dados é feito de forma diferente do que vimos nos arrays. No objeto, acessamos através de **propriedades** e **valores** declarados dentro do objetos.
+
+Normalmente, o objeto é programado de acordo com algum contexto relacionado ao mundo real
