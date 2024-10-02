@@ -1,6 +1,7 @@
 //Declarando um array
 
 let alunos = ["Alana", "Júlia", "Nathalya", "Clara"];
+// teste
  
 //Exibindo a estrutura do array
 console.log(alunos);
