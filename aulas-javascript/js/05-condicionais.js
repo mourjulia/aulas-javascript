@@ -55,4 +55,3 @@ Usando o operador ternário   "?:"    */
 
 let situacao = media >= 7 ? "Aprovado" : "Reprovado"
 console.log(situacao);
-

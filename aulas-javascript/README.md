@@ -77,3 +77,8 @@ Os operadores mais comuns são:
 - igualdade          ==
 - Diferença          !=
 
+## Sobre Comandos de Repetição 
+
+São estruturas/comandos que permitem a execução repetida vezes de uma ou mais ações/comandos/operações. Também conhecida como **loops** ou **laços de repetição**.
+
+A quantidade de vezes do loop será executado dependerá de alguma lógica ou condição definida pelo seu programador ou pelo sistema/aplicação. Também é comum que, para que o loop pare de exucutar, seja definida uma variável de controle de repetição 
